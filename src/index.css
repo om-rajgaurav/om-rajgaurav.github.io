@@ -16,7 +16,9 @@
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6) -transition: all 400ms ease;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -35,8 +37,6 @@ body {
   font-family: 'Source Code Pro', monospace;
   background: var(--color-bg);
   color: var(--color-white);
-  line-height: 1.7em;
-
 }
 
 /* ======  GENERAL STYLES ===== */
@@ -60,7 +60,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  /* height: 100vh; */
 }
 
 section>h2,
@@ -93,14 +92,14 @@ a:hover {
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-white);
+  background-color: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 }
@@ -113,7 +112,7 @@ a:hover {
 img {
   display: block;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* =========  MEDIA QUERIES (MEDIUM DEVICES) ========= */
