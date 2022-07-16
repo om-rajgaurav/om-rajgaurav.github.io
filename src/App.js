@@ -1,14 +1,30 @@
 import './App.css';
 
+import {
+  About,
+  Contact,
+  Experience,
+  Footer,
+  Header,
+  Nav,
+  Portfolio,
+  Services,
+  Testimonials,
+} from './components';
+
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
