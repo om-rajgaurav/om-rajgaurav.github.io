@@ -1,4 +1,4 @@
-import './Experience.css';
+import './experience.css';
 
 import { BsPatchCheckFill } from 'react-icons/bs';
 import React from 'react';

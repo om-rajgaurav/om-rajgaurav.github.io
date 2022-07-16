@@ -1,16 +1,4 @@
-import './App.css';
-
-import {
-  About,
-  Contact,
-  Experience,
-  Footer,
-  Header,
-  Nav,
-  Portfolio,
-  Services,
-  Testimonials,
-} from './components';
+import { About, Contact, Experience, Footer, Header, Nav } from './components';
 
 function App() {
   return (
@@ -19,9 +7,9 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonials />
+      {/* <Services /> */}
+      {/* <Portfolio />
+      <Testimonials /> */}
       <Contact />
       <Footer />
     </>
