@@ -26,21 +26,22 @@ function About() {
               <small>3+ Years Working</small>
             </article>
 
-            <article className='about__card'>
+            {/* <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
-            </article>
+            </article> */}
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>7+ Completed</small>
             </article>
           </div>
           <p>
-            Loreum jhbjdcw cwjqhbcjw cebwjhcbew cewbjhcbewcewc. cewhbcjhewbcew
-            cewcewc. cwejhbcjewbcnmwcewcewcw.c ewcewc.
+            I have done most of the projects in Android Developer using Java and
+            Kotlin. 3 Projects are in React Native using Javascript. 1 Spring
+            Boot Project of myself.
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's Talk

@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
       <a href='#' className='footer__logo'>
-        EGATOR
+        PORTFOLIO
       </a>
 
       <ul className='permalinks'>
@@ -28,13 +28,13 @@ function Footer() {
       </ul>
 
       <div className='footer__socials'>
-        <a href='http://facebook.com'>
+        <a href='https://www.facebook.com/nnroh'>
           <FaFacebookF />
         </a>
-        <a href='http://facebook.com'>
+        <a href='https://www.instagram.com/nnrohu'>
           <FiInstagram />
         </a>
-        <a href='http://facebook.com'>
+        <a href='https://twitter.com/nnrohu'>
           <IoLogoTwitter />
         </a>
       </div>
