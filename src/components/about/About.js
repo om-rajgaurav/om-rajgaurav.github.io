@@ -39,9 +39,9 @@ function About() {
             </article>
           </div>
           <p>
-            I have done most of the projects in Android Developer using Java and
-            Kotlin. 3 Projects are in React Native using Javascript. 1 Spring
-            Boot Project of myself.
+            I have done most of the projects in Android using Java and Kotlin. 3
+            Projects are in React Native using Javascript. 1 Spring Boot Project
+            of myself.
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's Talk
