@@ -1,7 +1,6 @@
 import './about.css';
 
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
 import Images from '../../utils/Images';
 import React from 'react';
 import { VscFolderLibrary } from 'react-icons/vsc';
