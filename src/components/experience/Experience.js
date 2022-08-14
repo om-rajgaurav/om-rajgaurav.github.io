@@ -33,7 +33,7 @@ function Experience() {
         {/* END OF FRONTEND */}
 
         <div className="experience__frontend">
-          <h3> Skills</h3>
+          <h3> Skill's</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
