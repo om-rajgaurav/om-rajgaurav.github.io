@@ -14,7 +14,12 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Images.me_about} alt="About me" height={400} />
+            <img
+              src={Images.me_about}
+              alt="About me"
+              height={400}
+              width={400}
+            />
           </div>
         </div>
         <div className="about__content">
